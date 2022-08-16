@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 650px;
+  background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.foto {
+  position: relative;
+}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.sosmed-icon {
+  padding: 10px 20px 10px 20px;
+  background: #222;
+  color: #fff;
+  margin: 5px;
+  border-radius: 4px;
+}
+a.sosmed-icon:hover{
+  background: #fff!important;
+  color: #222!important;
+}
+.instagram{
+  background:  #3c5a98!important;
+}
+.linkedin{
+  background: #262626!important;;
+}
+
